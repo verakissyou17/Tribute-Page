@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: dimgrey;
+  width: 90%;
+  max-width: 1400px;
+  margin: 2em auto;
+  border-radius: 15px;
+  padding: 2em;
+}
+
+#header {
+  text-align: center;
+  margin-block: 1em;
+  color: white;
+  width: 100%;
+  padding: 1em;
+}
+
+#title {
+  font-size: 3em;
+  font-weight: 800;
+  font-family: inherit;
+  font-style: italic;
+}
+
+#image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+#img-caption {
+  text-align: center;
+  font-style: oblique;
+  letter-spacing: 1px;
+  color: white;
+}
+
+#tribute-info {
+  background-color: white;
+  padding: 2em;
+  border-radius: 15px;
+  margin-block: 2.5em;
+
+  width: 60%;
+}
+
+#tribute-info ul {
+  list-style: none;
+}
+
+#tribute-info ul li {
+  padding: 0.5em;
+}
+
+ .list-item::before {
+  content: "🎼 ";
+}
+
+#tribute-info-hero {
+  margin-bottom: 1em;
+}
+
+details {
+  margin-left: 0.5em;
+}
+
+details > p {
+  font-family: inherit;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+details > p::before {
+  content: " > ";
+  color: dimgray;
+  font-weight: 900;
+  font-family: inherit;
+  font-size: 1.25rem;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 0.9rem;
+  color: white;
+}
+
+footer a {
+ font-weight: 700;
+ font-size: 1rem;
+ color: white;
+}
+
+footer a:hover {
+  color: rgb(8, 205, 240);
+}
+
+
