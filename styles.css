@@ -63,7 +63,6 @@ body {
   padding: 2em;
   border-radius: 15px;
   margin-block: 2.5em;
-
   width: 60%;
 }
 
@@ -116,6 +115,12 @@ footer a {
 
 footer a:hover {
   color: rgb(8, 205, 240);
+}
+
+@media(max-width: 500px) {
+  #tribute-info {
+    width: 100%;
+  }
 }
 
 
